@@ -4,4 +4,5 @@ def hello_t(array)
     yield array[i] #essentially it is iterating through and doing the stuff outside
     i = i + 1 #iterates
   end
+  array
 end
